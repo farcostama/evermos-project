@@ -1,0 +1,47 @@
+# ===== ENVIRONMENT VARIABLES (SENSITIVE DATA) =====
+# Never commit .env files - they contain secrets!
+.env
+.env.local
+.env.*.local
+.env.prod
+.env.bak
+.env.backup
+
+# ===== LOGS =====
+*.log
+*.log.*
+logs/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# ===== GO ARTIFACTS =====
+*.o
+*.a
+*.so
+*.test
+*.out
+vendor/
+
+# ===== BINARY FILES =====
+/evermos
+/evermos.exe
+*.exe
+*.dll
+*.dylib
+
+# ===== TEMP FILES =====
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# ===== OS SPECIFIC =====
+.DS_Store
+Thumbs.db
+Desktop.ini
